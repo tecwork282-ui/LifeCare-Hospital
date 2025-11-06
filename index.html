@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeCare Hospital</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="container-fluid sec-1">
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-dark px-3">
+                    <a class="navbar-brand fw-bold fs-2 logo" href="#"><img src="images/logo1.png" height="70px"> LifeCare</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="service.html">Services</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="department.html">Departments</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="doctor.html">Doctors</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="appointment.html">Appointments</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="container-fluid bg-secondary hero">
+        <div class="container-fluid">
+            <div class="d-flex  align-items-center text-center text-white">
+                <div class="container">
+                    <h1 class="display-3 fw-bold animate__animated animate__fadeInDown"  style="--animate-duration: 5s; animation-delay: 0s;">Welcome to LifeCare Hospital</h1>
+                    <p class="lead mt-2 fw-medium animate__animated animate__fadeInDown"  style="--animate-duration: 5s; animation-delay: 0s;">Caring for Life with Compassion & Excellence</p>
+                    <a href="#" class="btn px-4 py-2">Book Appointment</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5">
+        <a href="#!" class="text-decoration-none text-dark">
+            <div class="aboutus col-6 col-sm-11 text-center mx-auto py-4">
+                <h4 class="title fw-bold">About Us</h4>
+                <p>LifeCare Hospital is dedicated to providing top-quality
+                    healthcare
+                    services using the latest medical advancements and compassionate care. Our team of professionals is
+                    committed to your health and well-being.</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="container-fluid py-5 service">
+        <a href="#!" class="text-decoration-none text-dark">
+            <div class="col-6 col-sm-11 text-center mx-auto py-4">
+                <h4 class="title fw-bold">Our Services</h4>
+                <p>Emergency Care, Diagnostics, Surgery, Maternity, Pediatrics, Pharmacy, and more.</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="container-fluid py-5">
+        <a href="#!" class="text-decoration-none text-dark">
+            <div class="aboutus col-6 col-sm-11 text-center mx-auto py-4">
+                <h4 class="title fw-bold">Departments</h4>
+                <p>Cardiology, Neurology, Orthopedics, Oncology, ENT, Dermatology, and others.</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="container-fluid py-5 doctor">
+        <a href="#!" class="text-decoration-none text-dark">
+            <div class="col-6 col-sm-11 text-center mx-auto py-4">
+                <h4 class="title fw-bold">Our Doctors</h4>
+                <p>Meet our highly experienced and dedicated team of healthcare professionals.</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="container-fluid py-5">
+    <div class="aboutus col-lg-8 col-xl-6 col-xxl-5 col-sm-11 text-center mx-auto py-4">
+
+        <h4 class="title fw-bold">Book an Appointment</h4>
+
+        <!-- form tag added -->
+        <form class="box p-4">
+
+            <div class="mb-3 pt-1">
+                <label for="name" class="form-label">Your Name:</label>
+                <input type="text" class="form-control" id="name" 
+                       placeholder="Enter your full name" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" 
+                       placeholder="name@example.com" required>
+            </div>
+
+            <label class="form-label">Select Doctor:</label>
+            <select class="form-select" required>
+                <option value="">Select Doctor</option>
+                <option value="john">Dr. John Doe (Cardiologist)</option>
+                <option value="jane">Dr. Jane Smith (Neurologist)</option>
+                <option value="sam">Dr. Sam Wilson (Orthopedic Surgeon)</option>
+                <option value="alice">Dr. Alice Brown (Oncologist)</option>
+            </select>
+
+            <div class="mb-3 pt-3">
+                <label for="date" class="form-label">Preferred Date:</label>
+                <input type="date" class="form-control" id="date" required>
+            </div>
+
+            <!--  anchor removed, submit button added -->
+            <button type="submit" class="btn btn-2 px-4 py-2 mb-2">
+                Book Appointment
+            </button>
+
+        </form>
+    </div>
+</div>
+
+
+    <div class="container-fluid py-5 contact">
+        <div class="col-6 col-sm-11 text-center mx-auto py-4">
+            <a href="#!" class="text-decoration-none">
+                <h4 class="title fw-bold">Contact Us</h4>
+            </a>
+            <p>Email: iankit.chourasia@gmail.com | Phone: +91 9748124534</p>
+            <p>Address: 123 Health Street, Wellness City, Country(Random given)</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="sec-last text-white text-center py-3 ">
+        <p class="mb-0">© 2025 LifeCare Hospital | All Rights Reserved</p>
+    </footer>
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
